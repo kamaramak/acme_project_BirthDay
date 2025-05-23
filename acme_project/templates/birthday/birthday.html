@@ -20,10 +20,11 @@
         {% if '/delete/' in request.path %}
           <p>{{ data.first_name }} {{ data.last_name }}</p>
           <p>{{ data.birthday }}</p>
+          {% bootstrap_button button_type="submit" content="Удалить" %}
         {% else %}
           {% bootstrap_form form %}
+          {% bootstrap_button button_type="submit" content="Отправить" %}
         {% endif %}
-        {% bootstrap_button button_type="submit" content="Отправить" %}
       </form>
     </div>
   </div>
