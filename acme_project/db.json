@@ -1,0 +1,177 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-05-23T14:40:17.579Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ЕкатеринаЩербаченко",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-05-23T14:43:16.686Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "МаратКабардоков",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-05-28T12:34:03.728Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test_staff",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-05-28T12:36:31.031Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test_staff",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-05-28T12:36:35.668Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test_staff",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-05-28T12:36:46.433Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test_staff",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-05-28T12:38:41.319Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test_staff",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$hXCTqTWXhvGhwN2uWkH0wV$V8/igh88hhf2eJt++2cabCuigrkr1cfd0uh5KEB7EHk=",
+    "last_login": "2025-05-28T12:38:13.668Z",
+    "is_superuser": true,
+    "username": "kamar",
+    "first_name": "",
+    "last_name": "",
+    "email": "a@b.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-22T13:46:47.007Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$9cQX6f4ZljrLuLp5ubZVdM$ObD1uYtD5ocitv0EfmUITdWt4T+6bGgqvpOv7Zzo5rI=",
+    "last_login": "2025-05-28T12:38:01Z",
+    "is_superuser": false,
+    "username": "test_staff",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-28T12:34:01Z",
+    "groups": [],
+    "user_permissions": [
+      28
+    ]
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "394vqxa4qz2noyi3hj6oalqd4pc8821z",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlmsifyhpOcM1q53jQPIluKkirg7iZQC2jczb1URl7nEpcsUR1ZXBer0uxGml9Qd8BPro-nU6jyNpHdFH7Tre2N53w7376BgL1uNZNFmzJlTAA50FiNAQawTCwMFD4kG75LBYMGgC8kib9CbCwM6UZ8vGIU4zg:1uKG2v:okWIGIleWLERAjc-bM9E57nAckzaPE-DZtc0m6IofYI",
+    "expire_date": "2025-06-11T12:38:13.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vw87dlsbdc6l8f0y0mwtcutswfncgtl2",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDKBAou3XsGMjOAVA0kpV013t026UK3_733NxFwXUpYe5rDFMVVaHH53Qj5leoB4hPro0ludZknkociT9rlvcX0vp3u30HBXvba51EpHw1EBGSK2Xo2hjKzd4zGISULmhTTQLB7yQNaGnU24HlwID5fEM44yA:1uKG2k:JdE6PtC2brJNCqFeHMcY9U9cooY7am5nhmrxhi79cb4",
+    "expire_date": "2025-06-11T12:38:02.376Z"
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 3,
+  "fields": {
+    "first_name": "Марат",
+    "last_name": "Кабардоков",
+    "birthday": "1999-11-15",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 6,
+  "fields": {
+    "first_name": "Екатерина",
+    "last_name": "Щербаченко",
+    "birthday": "1998-09-02",
+    "image": ""
+  }
+},
+{
+  "model": "birthday.birthday",
+  "pk": 8,
+  "fields": {
+    "first_name": "Эйвор",
+    "last_name": "Варинсон",
+    "birthday": "1999-11-16",
+    "image": "birthdays_images/ACV_MR_EivorMaleAction_sm.jpg"
+  }
+}
+]

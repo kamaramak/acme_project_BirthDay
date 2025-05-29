@@ -10,6 +10,7 @@ class BirthdayAdmin(admin.ModelAdmin):
         'first_name',
         'last_name',
         'birthday',
+        'author'
     )
     list_display_links = (
         'first_name',
@@ -19,4 +20,7 @@ class BirthdayAdmin(admin.ModelAdmin):
     search_fields = (
         'first_name',
         'last_name',
+    )
+    list_editable = (
+        'author',
     )
