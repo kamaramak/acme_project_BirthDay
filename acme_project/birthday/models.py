@@ -47,3 +47,20 @@ class Birthday(models.Model):
 
     def __str__(self):
         return self.first_name + self.last_name
+
+
+class Congratulation(models.Model):
+    text = models.TextField('Текст поздравдения')
+    birthday = models.ForeignKey(
+        Birthday,
+        on_delete=models.CASCADE,
+        related_name='congratulation',
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
+    author = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+    )
+
+    class Meta:
+        ordering = ('created_at',)
