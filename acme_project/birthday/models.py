@@ -54,7 +54,7 @@ class Congratulation(models.Model):
     birthday = models.ForeignKey(
         Birthday,
         on_delete=models.CASCADE,
-        related_name='congratulation',
+        related_name='congratulations',
     )
     created_at = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(
